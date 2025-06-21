@@ -68,11 +68,11 @@ Follow these steps to get the project up and running on your local machine.
 
     ```dotenv
     # .env
-    MONGO_URI=mongodb+srv://<YOUR_ATLAS_USERNAME>:<YOUR_ATLAS_PASSWORD>@reciep.iicj8zw.mongodb.net/recipes_app_db?retryWrites=true&w=majority&appName=reciep
-    PORT=5000
+    MONGO_URI=mongodb+srv://Abhishek009:JbmQc!h6!WiQU%255@reciep.iicj8zw.mongodb.net/recipes_app_db?retryWrites=true&w=majority&appName=reciep
+PORT=5000
     ```
 
-    - **Replace `<YOUR_ATLAS_USERNAME>` and `<YOUR_ATLAS_PASSWORD>`** with the actual username and URL-encoded password for your MongoDB Atlas database user.
+    - **Replace `<sensitive>` and `<sensitive>`** with the actual username and URL-encoded password for your MongoDB Atlas database user.
     - Ensure your MongoDB Atlas user has read and write access and that your Network Access allows connections from your IP (or from anywhere `0.0.0.0/0` for broader access during development/deployment).
 
 4.  **Start the server:**
